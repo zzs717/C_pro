@@ -1,0 +1,20 @@
+In the sea turtle project, the work is roughly divided into three steps.
+
+The first step is preprocessing. 
+Because the drawing language with an unknown number of lines needs to be read from the file, 
+the data type commandlist is defined to store the drawing program. The two-dimensional array in 
+which the string is stored can be resized.
+In addition, a stack is defined to perform polish operations, mainly including stack definition and free, 
+pushing and pop functions. Before writing the parser, I first tested the operation functions of the data 
+type commandlist and the operation functions in the stack to ensure that they can complete their 
+work normally.
+
+The second step is about parser. In order to test it, first run the Assertparse function, 
+which includes the assert about the function that returns a value in the parser.
+Created an Assertparser.txt file to store the strings needed for the test. After the test is completed, 
+read the target file and execute the MAIN function to judge whether the drawing program 
+can pass the parser.
+
+The third step is interpreter and extension. The basic idea is the same as that of parser, including SDL 
+for drawing. First, the functions used are tested through the Assertinterp function and the Assertextenxion 
+function.

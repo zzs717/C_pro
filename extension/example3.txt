@@ -1,0 +1,11 @@
+{
+FUNCTION CIRCLE
+}
+
+FUNCTION CIRCLE
+{
+DO A FROM 1 TO 128 {
+  FD 3
+  LT 2.8125
+  }
+}

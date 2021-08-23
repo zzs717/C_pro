@@ -1,0 +1,38 @@
+A
+C
+22
+B
++
+-
+*
+/
+2 3 + ;
+5 8 * ;
+3 3 - ;
+SET C := 4 6 * ;
+SET D := C 6 + ;
+SET E := C 6 - ;
+FD 30
+FD 15
+FD 20
+FD C
+FD D
+FD E
+LT 33
+LT 17
+LT 80
+LT C
+LT D
+LT E
+RT 31
+RT 54
+RT 12
+RT C
+RT D
+RT E
++
+-
+*
+/
+A
+16

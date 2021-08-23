@@ -1,0 +1,29 @@
+This is achieved in extension: 
+allowing users to customize multiple FUNCTIONs and use them in MAIN to achieve modularity. 
+
+It can be shown in the following example:
+
+{
+FUNCTION CIRCLE
+FUNCTION STAR
+}
+
+FUNCTION CIRCLE
+{
+DO A FROM 1 TO 128 {
+  FD 3
+  LT 2.8125
+  }
+}
+
+FUNCTION STAR
+{
+DO A FROM 1 TO 5 {
+  FD 100
+  RT 144
+  }
+}
+
+
+The first four lines are the MAIN function part, and the next is the definition 
+of the function used in the main function.

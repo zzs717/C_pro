@@ -1,0 +1,28 @@
+A
+C
+22
+B
+FD 30
+FD 15
+FD 20
+FD A
+FD B
+FD C
+LT 33
+LT 17
+LT 80
+LT V
+LT F
+LT R
+RT 31
+RT 54
+RT 12
+RT C
+RT S
+RT W
++
+-
+*
+/
+A
+16

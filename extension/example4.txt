@@ -1,0 +1,11 @@
+{
+FUNCTION STAR
+}
+
+FUNCTION STAR
+{
+DO A FROM 1 TO 5 {
+  FD 100
+  RT 144
+  }
+}
